@@ -1,0 +1,36 @@
+.cabecalho
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    border-bottom: 2px solid rgb(184, 45, 45);
+    
+    
+}
+
+.img
+{
+    width: 12rem;
+}
+
+.menus-link
+{
+    color: rgb(184, 45, 45);
+    display: inline-block;
+    font-size: 1.1rem;
+    margin:2.5rem ;
+    margin-right:1.5rem;
+    transition:400ms;
+    font-family: 'Cinzel', serif;
+}
+.menus-link:hover
+{
+    font-size: 1.8rem;
+    color: rgb(236, 182, 80);
+    
+}
+.menus-link:hover:active
+{
+    color: rgb(221, 152, 25);
+}

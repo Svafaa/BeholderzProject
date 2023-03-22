@@ -1,0 +1,70 @@
+.principal
+{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    border: 40px solid black;
+    border-radius: 3px;
+    border-width: 100px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+   
+}
+
+h1
+{
+    padding-top: 80px;
+    text-align: justify;
+    font-size: 3rem;
+    font-family: 'Cinzel', serif;
+    color: rgb(184, 45, 45);
+    font-weight: bold;
+
+}
+h2
+{
+    padding-top: 30px;
+    padding-bottom: 5px;
+    text-align: justify;
+    font-size: 2rem;
+    font-family: 'Cinzel', serif;
+}
+p
+{
+    padding-top: 1em;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'MedievalSharp', cursive;
+}
+.img_behold
+{
+    height: 15rem;
+    width: 15rem;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 60px ;
+}
+ 
+.titulo_carta
+{
+    position:relative;
+    text-align: center;
+    top: -840px;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgba(66, 22, 22, 0.849);
+
+}
+.texto_carta
+{
+    /*480x168*/
+    position:relative;
+    text-align: center;
+    top: -840px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 500px;
+    color: rgba(66, 22, 22, 0.849);
+}
